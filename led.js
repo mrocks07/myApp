@@ -4,5 +4,5 @@ var iv = setInterval(function ()
 {  
     
 led.writeSync(led.readSync() === 0 ? 1 : 0)  
-}, 10000); 
+}, 100); 
  
