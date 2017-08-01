@@ -14,5 +14,6 @@ http.createServer(function (req, res) {
     res.end('Welcome to firmware upgrade test app!');
 }).listen(8081);
 
+console.log('Server running at http://127.0.0.1:8081/');
 
  
