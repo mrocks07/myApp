@@ -7,7 +7,7 @@ var iv = setInterval(function ()
 led.writeSync(led.readSync() === 0 ? 1 : 0)  
 }, 1000); 
 
-var http = require('http');
+var http = require('net');
 
 var server=http.createServer(function (req, res) {
     res.writeHead(200, {'Content-Type': 'text/plain'});
