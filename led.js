@@ -11,7 +11,7 @@ var http = require('http');
 
 var server=http.createServer(function (req, res) {
     res.writeHead(200, {'Content-Type': 'text/plain'});
-    res.end('Welcome to firmware upgrade Appllication! This is most recent update');
+    res.end('Welcome to firmware upgrade Appllication! This is most recent update 1');
     console.log('Server running at http://192.168.0.52:5052/');
 }).listen(5052);
 
